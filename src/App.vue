@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Cordova/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Cordova from './components/Cordova.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Cordova
   }
 }
 </script>
