@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-    <h1>Apache Cordova</h1>
+    <h1>HotCodePush Cordova</h1>
     <div id="deviceready" class="blink">
       <p class="event listening">Connecting to Device</p>
       <p class="event received">Device is Ready</p>

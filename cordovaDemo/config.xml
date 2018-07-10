@@ -23,6 +23,11 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
+    <chcp>
+        <config-file url="http://192.168.9.95:31284/chcp.json" />
+    </chcp>
     <plugin name="cordova-plugin-camera" spec="^4.0.3" />
+    <plugin name="cordova-hot-code-push-plugin" spec="^1.5.3" />
+    <plugin name="cordova-hot-code-push-local-dev-addon" spec="^0.4.2" />
     <engine name="android" spec="7.0.0" />
 </widget>
