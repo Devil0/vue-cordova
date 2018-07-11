@@ -3,7 +3,7 @@ import App from './App.vue'
 
 Vue.config.productionTip = false
 
-var app = {
+let app = {
   // Application Constructor
   initialize: function () {
     document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
